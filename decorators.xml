@@ -1,0 +1,14 @@
+<decorators defaultdir="/">
+    <excludes>
+        <pattern>/ajax/**</pattern>
+        <pattern>/statics/**</pattern>
+        <pattern>/topPlay/station/list?check=1*</pattern>
+    </excludes>
+
+	<decorator name="main" page="tp/decorators/main.ftl">
+        <pattern>/*/*</pattern>
+        <pattern>/welcome</pattern>
+        <pattern>/empty</pattern>
+ 	</decorator>
+
+</decorators>
